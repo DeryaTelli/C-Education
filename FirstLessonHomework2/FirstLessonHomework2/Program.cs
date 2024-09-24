@@ -22,7 +22,7 @@ namespace FirstLessonHomework2
             Console.Write("Enter third edge of  triangle: ");
             int thirdEdge = Convert.ToInt32((Console.ReadLine()));
 
-            if (firstEdge ==secondEdge && secondEdge ==thirdEdge && firstEdge==thirdEdge)
+            if (firstEdge == secondEdge && secondEdge == thirdEdge && firstEdge == thirdEdge)
             {
                 Console.WriteLine("equilateral triangle");
             }
