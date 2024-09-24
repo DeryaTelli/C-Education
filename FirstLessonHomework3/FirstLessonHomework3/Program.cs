@@ -10,6 +10,16 @@ namespace FirstLessonHomework3
     {
         static void Main(string[] args)
         {
+            //0-100 arasindakicift sayilari yazdirirken sayi 60 oldugundad donguden cikan program 
+            for(int i=0; i<=100; i++)
+            {
+                if (i==61)
+                {
+                    break;
+                }
+                Console.WriteLine(i);
+            }
+            Console.ReadLine();
         }
     }
 }
