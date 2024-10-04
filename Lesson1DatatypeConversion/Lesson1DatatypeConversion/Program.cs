@@ -19,7 +19,18 @@ namespace Lesson1DatatypeConversion
             Console.WriteLine(Convert.ToDouble(myInt)); //convert int to double 
             Console.WriteLine(Convert.ToInt32(myDouble)); //convert double to int 
             Console.WriteLine(Convert.ToString(myBool)); // convert bool to string 
+
+
+            var i = 10;
+            Console.WriteLine("Type of i is {0}", i.GetType().ToString());
+
+            var str = "Hello World";
+            Console.WriteLine("Type of str is {0}", str.GetType().ToString());
+
+            var d = 10.50;
+            Console.WriteLine("Type of i is {0}", d.GetType().ToString());
             Console.ReadLine();
+
         }
     }
 }
