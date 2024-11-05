@@ -29,6 +29,8 @@ namespace RefOutExample
              * bir değeri olması gerekmez, ancak metod içinde
              * mutlaka bir değer atanması zorunludur.*/
         }
+
+
         static void Main(string[] args)
         {
             int value = 10;
