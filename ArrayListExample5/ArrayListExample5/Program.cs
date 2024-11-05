@@ -17,6 +17,19 @@ namespace ArrayListExample5
             {
                 Console.WriteLine(s);
             }
+            
+
+            ArrayList list2 = new ArrayList() { "Deniz", "Elif", "Leyla", "Buse" };
+            string isim ="Esma";
+            if (list2.Contains(isim))
+            {
+                Console.WriteLine("it found");
+            }
+            else
+            {
+                Console.WriteLine("it doesn't found ");
+            }
+
             Console.ReadLine();
         }
     }
