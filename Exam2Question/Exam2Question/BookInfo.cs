@@ -47,12 +47,17 @@ namespace Exam2Question
             if (Pday>1 && Pday<7)
             {
                 result=Pday*5;
-                Console.WriteLine("Ceza:"+result);
+                Console.WriteLine("Punish:"+result);
             }
             else if (Pday>7 && Pday<15) 
             {
                result= Pday*10;
-                Console.WriteLine("Ceza:"+result);
+                Console.WriteLine("Punish:"+result);
+            }
+            else
+            {
+                result=0;
+                Console.WriteLine("Dont have punish")
             }
         }
     }

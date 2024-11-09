@@ -27,7 +27,7 @@ namespace Exam2Question
             }
             else if (selected==2) 
             {
-                Console.WriteLine(" Enter please gec kalinan gun  :");
+                Console.WriteLine(" Enter please  last rest of day   :");
                 int pday= Convert.ToInt32(Console.ReadLine());
                 book.PunishCalculate(pday);
             }
