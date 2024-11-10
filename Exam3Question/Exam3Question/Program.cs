@@ -18,6 +18,12 @@ namespace Exam3Question
             {
                 Name = name;
             }
+            public string GetInfo()
+            {
+                return Name;
+            }
+
+            
         }
         static void Main(string[] args)
         {
@@ -36,11 +42,14 @@ namespace Exam3Question
             }
             Console.WriteLine("Enter name please:");
             string name = Console.ReadLine();
-            if (person_list.Contains(name))
+            Person person = new Person(name);
+            
+            
+            if (person_list.Contains(person.GetInfo()))
             {
                 Console.WriteLine("Name found!!");
-                person_list.Remove(name);
-                Console.WriteLine("Delete:"+name);
+                person_list.Remove(person.GetInfo());
+                Console.WriteLine("Delete:"+person.GetInfo());
 
             }
             else
